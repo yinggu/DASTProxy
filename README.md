@@ -21,7 +21,7 @@ DAST Proxy works pretty much the same way as manual scan except that the automat
 
    /rest/v1/proxy  - Start listening on proxy port and return the proxy details - POST method - This needs data to be sent. Please find the details in the document.
 
-   /rest/v1/selenium/datascan  - Setup or submit scan - This is created for Breeze integration. We can modify or create a new one if needed.
+   /rest/v1/selenium/datascan  - Setup or submit scan - This is created for Selenium/Automation integration. We can modify or create a new one if needed.
 
    /rest/v1/proxy/cancel – Cancel scan cancels the scan recording and frees the proxy port
 
