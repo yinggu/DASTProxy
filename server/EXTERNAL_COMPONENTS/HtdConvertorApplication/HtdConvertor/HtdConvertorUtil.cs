@@ -19,11 +19,11 @@ namespace HtdConvertor
             Boolean isRelevant = true;
             String requestUrl = entryToBeChecked.request.url.ToLower();
 
-            if (requestUrl.Contains(".js")
-                    || requestUrl.Contains(".ico")
-                        || requestUrl.Contains(".png")
-                            || requestUrl.Contains(".gif")
-                                    || requestUrl.Contains(".css"))
+            if (requestUrl.EndsWith(".js")
+                    || requestUrl.EndsWith(".ico")
+                        || requestUrl.EndsWith(".png")
+                            || requestUrl.EndsWith(".gif")
+                                    || requestUrl.EndsWith(".css"))
             {
                 isRelevant = false;
             }
